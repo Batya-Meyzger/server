@@ -1,0 +1,364 @@
+{
+	"info": {
+		"_postman_id": "4924a238-ae9d-49a9-9e38-69b17902848c",
+		"name": "Lesson1_miryamilandman-329385678",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "49510014",
+		"_collection_link": "https://miryamilandman-9336244.postman.co/workspace/%D7%9E%D7%A8%D7%99%D7%9E%D7%99-%D7%9C%D7%A0%D7%93%D7%9E%D7%9F's-Workspace~cf5e2fb0-8245-4c3d-8fcc-dce7419a35bf/collection/49510014-4924a238-ae9d-49a9-9e38-69b17902848c?action=share&source=collection_link&creator=49510014"
+	},
+	"item": [
+		{
+			"name": "add",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/add?num1=7&num2=5",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"add"
+					],
+					"query": [
+						{
+							"key": "num1",
+							"value": "7"
+						},
+						{
+							"key": "num2",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addbyname",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseURL}}/add?num1=pi&num2=9",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"add"
+					],
+					"query": [
+						{
+							"key": "num1",
+							"value": "pi"
+						},
+						{
+							"key": "num2",
+							"value": "9"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "minus",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:3000/minus?num1=6&num2=1",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"minus"
+					],
+					"query": [
+						{
+							"key": "num1",
+							"value": "6"
+						},
+						{
+							"key": "num2",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "minusbyname",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:3000/minus?num1=8&num2=pi",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"minus"
+					],
+					"query": [
+						{
+							"key": "num1",
+							"value": "8"
+						},
+						{
+							"key": "num2",
+							"value": "pi"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "multiply",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/multiply?num1=8&num2=2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"multiply"
+					],
+					"query": [
+						{
+							"key": "num1",
+							"value": "8"
+						},
+						{
+							"key": "num2",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "multiplybyname",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/multiply?num1=8&num2=pi",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"multiply"
+					],
+					"query": [
+						{
+							"key": "num1",
+							"value": "8"
+						},
+						{
+							"key": "num2",
+							"value": "pi"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "divide",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/divide?num1=4&num2=2",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"divide"
+					],
+					"query": [
+						{
+							"key": "num1",
+							"value": "4"
+						},
+						{
+							"key": "num2",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "dividebyname",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/divide?num1=4&num2=e",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"divide"
+					],
+					"query": [
+						{
+							"key": "num1",
+							"value": "4"
+						},
+						{
+							"key": "num2",
+							"value": "e"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addnewvalue",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}?key=one&value=1",
+					"host": [
+						"{{baseURL}}"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "one"
+						},
+						{
+							"key": "value",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deletevalue",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}?name=one&num=1",
+					"host": [
+						"{{baseURL}}"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "one"
+						},
+						{
+							"key": "num",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updatevalue",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}?name=pi&num=3.14444",
+					"host": [
+						"{{baseURL}}"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "pi"
+						},
+						{
+							"key": "num",
+							"value": "3.14444"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getvaluebyname",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/e",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"e"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getall",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/getAll",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"getAll"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "baseURL",
+			"value": "",
+			"type": "default"
+		}
+	]
+}
