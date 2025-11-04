@@ -1,0 +1,226 @@
+{
+	"info": {
+		"_postman_id": "035bfd4c-6b7c-46fc-b0d8-3b484ef57f2e",
+		"name": "lessson 3 Batya Metzger216195305 Chani Fridman215765280",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "49510661",
+		"_collection_link": "https://batya3767-9648239.postman.co/workspace/lesson-3~09ffdb7b-ee23-4b52-a6a3-53bd8e6fff7f/collection/49510661-035bfd4c-6b7c-46fc-b0d8-3b484ef57f2e?action=share&source=collection_link&creator=49510661"
+	},
+	"item": [
+		{
+			"name": "127.0.0.1:3000\\Course get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:3000/Course/1",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"Course",
+						"1"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:3000/Course/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"Courseid\" : 1,\r\n    \"CourseName\" : \"java\",\r\n    \"Houres\" :15\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:3000/Course/",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"Course",
+						""
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:3000/Course/1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"Courseid\" : 1,\r\n    \"CourseName\" : \"java\",\r\n    \"Houres\" :15\r\n}"
+				},
+				"url": {
+					"raw": "127.0.0.1:3000/Course/1",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"Course",
+						"1"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:3000/Days/2 post id ",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"Courseid\" : 1,\r\n    \"CourseName\" : \"java\",\r\n    \"Houres\" :15\r\n}"
+				},
+				"url": {
+					"raw": "127.0.0.1:3000/Days/2",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"Days",
+						"2"
+					],
+					"query": [
+						{
+							"key": "Courseid",
+							"value": "2",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:3000/Days/2?Courseid=2 delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:3000/Days/2?Courseid=2",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"Days",
+						"2"
+					],
+					"query": [
+						{
+							"key": "Courseid",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:3000/Days/ get day",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:3000/Days/",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"Days",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:3000/Days/2?Courseid=2 updatedays",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"newDays\": [\"Fri\", \"Thru\"]\r\n}\r\n"
+				},
+				"url": {
+					"raw": "127.0.0.1:3000/Days/2?Courseid=2",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"Days",
+						"2"
+					],
+					"query": [
+						{
+							"key": "Courseid",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
