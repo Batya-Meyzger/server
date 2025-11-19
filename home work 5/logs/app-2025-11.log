@@ -1,0 +1,70 @@
+[17/11/2025 20:05:40] INFO:): {POST} /game/geuss?geussnumber=5
+[17/11/2025 20:05:40] DEBUG:): the request returen with status code: 401
+[17/11/2025 20:06:41] INFO:): {POST} /game/geuss?geussnumber=5
+[17/11/2025 20:06:41] DEBUG:): the request returen with status code: 401
+[17/11/2025 20:06:44] INFO:): {POST} /game/geuss?geussnumber=5
+[17/11/2025 20:06:44] DEBUG:): the request returen with status code: 401
+[17/11/2025 20:06:51] INFO:): {GET} /game/geuss?geussnumber=5
+[17/11/2025 20:06:51] DEBUG:): the request returen with status code: 401
+[17/11/2025 20:06:53] INFO:): {GET} /game/geuss?geussnumber=5
+[17/11/2025 20:06:53] DEBUG:): the request returen with status code: 401
+[17/11/2025 20:09:06] INFO:): {GET} /game/geuss?geussnumber=5
+[17/11/2025 20:09:06] DEBUG:): the request returen with status code: 401
+[17/11/2025 20:09:39] INFO:): {GET} /game/geuss?geussnumber=5
+[17/11/2025 20:09:39] DEBUG:): the request returen with status code: 401
+[17/11/2025 20:09:40] INFO:): {GET} /game/geuss?geussnumber=5
+[17/11/2025 20:09:40] DEBUG:): the request returen with status code: 401
+[17/11/2025 20:13:52] INFO:): {GET} /game/newgame
+[17/11/2025 20:13:52] DEBUG:): the request returen with status code: 401
+[17/11/2025 20:20:49] INFO:): {GET} /manager/?password=1234&name=admin
+[17/11/2025 20:20:49] DEBUG:): the request returen with status code: 401
+[17/11/2025 20:20:50] INFO:): {GET} /manager/?password=1234&name=admin
+[17/11/2025 20:20:50] DEBUG:): the request returen with status code: 401
+[17/11/2025 20:20:51] INFO:): {GET} /manager/?password=1234&name=admin
+[17/11/2025 20:20:51] DEBUG:): the request returen with status code: 401
+[17/11/2025 20:22:55] INFO:): {POST} /game/geuss?geussnumber=5
+[17/11/2025 20:22:55] DEBUG:): the request returen with status code: 401
+[17/11/2025 20:22:56] INFO:): {POST} /game/geuss?geussnumber=5
+[17/11/2025 20:22:56] DEBUG:): the request returen with status code: 401
+[17/11/2025 20:22:57] INFO:): {POST} /game/geuss?geussnumber=5
+[17/11/2025 20:22:57] DEBUG:): the request returen with status code: 401
+[17/11/2025 20:36:55] INFO:): {GET} /manager/
+[17/11/2025 20:36:55] DEBUG:): the request returen with status code: 401
+[17/11/2025 20:36:56] INFO:): {GET} /manager/
+[17/11/2025 20:36:56] DEBUG:): the request returen with status code: 401
+[17/11/2025 20:36:59] INFO:): {GET} /manager/
+[17/11/2025 20:36:59] DEBUG:): the request returen with status code: 401
+[17/11/2025 20:37:18] INFO:): {GET} /manager/
+[17/11/2025 20:37:18] DEBUG:): the request returen with status code: 401
+[17/11/2025 20:37:20] INFO:): {GET} /manager/
+[17/11/2025 20:37:20] DEBUG:): the request returen with status code: 401
+[17/11/2025 20:37:21] INFO:): {GET} /manager/
+[17/11/2025 20:37:21] DEBUG:): the request returen with status code: 401
+[17/11/2025 20:37:26] INFO:): {POST} /manager/
+[17/11/2025 20:37:26] DEBUG:): the request returen with status code: 401
+[17/11/2025 22:40:37] INFO:): {GET} /manager/
+[17/11/2025 22:40:37] DEBUG:): the request returen with status code: 401
+[17/11/2025 22:41:45] INFO:): {GET} /game/newgame
+[17/11/2025 22:41:45] DEBUG:): the request returen with status code: 401
+[17/11/2025 22:42:06] INFO:): {GET} /game/newgame
+[17/11/2025 22:42:06] DEBUG:): the request returen with status code: 401
+[17/11/2025 22:46:30] INFO:): {GET} /game/newgame
+[17/11/2025 22:46:30] DEBUG:): the request returen with status code: 401
+[17/11/2025 22:50:02] INFO:): {GET} /game/newgame
+[17/11/2025 22:50:02] DEBUG:): the request returen with status code: 401
+[17/11/2025 22:50:18] INFO:): {GET} /manager/
+[17/11/2025 22:50:18] DEBUG:): the request returen with status code: 401
+[17/11/2025 22:50:20] INFO:): {GET} /manager/
+[17/11/2025 22:50:20] DEBUG:): the request returen with status code: 401
+[17/11/2025 23:00:59] INFO:): {GET} /game/newgame
+[17/11/2025 23:00:59] DEBUG:): the request returen with status code: 401
+[17/11/2025 23:02:50] INFO:): {GET} /game/newgame
+[17/11/2025 23:02:50] DEBUG:): the request returen with status code: 401
+[17/11/2025 23:02:51] INFO:): {GET} /game/newgame
+[17/11/2025 23:02:51] DEBUG:): the request returen with status code: 401
+[17/11/2025 23:03:48] INFO:): {GET} /game/newgame
+[17/11/2025 23:03:48] DEBUG:): the request returen with status code: 401
+[17/11/2025 23:07:38] INFO:): {GET} /game/newgame
+[17/11/2025 23:07:38] DEBUG:): the request returen with status code: 401
+[17/11/2025 23:07:38] INFO:): {GET} /favicon.ico
+[17/11/2025 23:07:38] DEBUG:): the request returen with status code: 200
