@@ -1,0 +1,207 @@
+{
+	"info": {
+		"_postman_id": "e5d4ef3b-d7b4-4e11-abd8-a2f4873c37ad",
+		"name": "project Chani Fridman215765280 Batya Metzger 216195305",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "49510661",
+		"_collection_link": "https://batya3767-9648239.postman.co/workspace/lesson-3~09ffdb7b-ee23-4b52-a6a3-53bd8e6fff7f/collection/49510661-e5d4ef3b-d7b4-4e11-abd8-a2f4873c37ad?action=share&source=collection_link&creator=49510661"
+	},
+	"item": [
+		{
+			"name": "יצירת משתמש חדש",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userId\": \"6000\",\r\n    \"name\": \"Chavi\",\r\n    \"email\": \"Chavi@gmail.com\",\r\n    \"password\": \"Chav5000\",\r\n    \"role\": \"student\",\r\n    \"classid\": \"v_4\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:3000/identify/register",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"identify",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "חיבור למשתמש וקבלת טוקן",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n\"userId\":\"2000\",\r\n\"email\":\"chedva@gmail.com\",\r\n\"password\":\"ched2000\",\r\n\"role\":\"teacher\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:3000/identify/login",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"identify",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "הכנסת משימה עי המורה",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "חיבור למשתמש וקבלת טוקן תלמידה",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "הכנסת משימה 2 עי המורה",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "הכנסת משימה 3 עי המורה",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "צפיה בכל המטלות הפתוחות עי תלמידה",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "הוספת הגשה עי תלמידה",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "הוספת הגשה עי תלמישה 2",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "הוספת הגשה עי תלמידה 3",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "צפיה בכל ההגשות עי המורה",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "מתן ציון עי המורה",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "מתן ציון עי המורה 2",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "מתן ציון עי המורה 3",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "מתן ציון עי המורה 4",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "ממוצע כל ההגשות",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "צפיה בהגשות שלי",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
