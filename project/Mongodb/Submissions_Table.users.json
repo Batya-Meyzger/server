@@ -1,0 +1,95 @@
+[{
+  "_id": {
+    "$oid": "6955cc2fa04de0e3c16a4b2c"
+  },
+  "userId": "1000",
+  "name": "Chagit",
+  "email": "chagit@gmail.com",
+  "password": "chag1000",
+  "role": "teacher",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6955cde9a04de0e3c16a4b3e"
+  },
+  "userId": "2000",
+  "name": "Chedva",
+  "email": "chedva@gmail.com",
+  "password": "ched2000",
+  "role": "teacher",
+  "classid": "v_1",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6955ce6415bc576aff8b9184"
+  },
+  "userId": "3000",
+  "name": "Hila",
+  "email": "Hila@gmail.com",
+  "password": "Hila3000",
+  "role": "student",
+  "classid": "v_3",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6955cf6f15bc576aff8b9188"
+  },
+  "userId": "4000",
+  "name": "Brachi",
+  "email": "a6422587@gmail.com",
+  "password": "Brac4000",
+  "role": "student",
+  "classid": "v_2",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6955cfd915bc576aff8b9194"
+  },
+  "userId": "6000",
+  "name": "Chavi",
+  "email": "Chavi@gmail.com",
+  "password": "Chav5000",
+  "role": "student",
+  "classid": "v_4",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6955d181156ae2166830bf8f"
+  },
+  "userId": "7000",
+  "name": "Ayala",
+  "email": "Ayala@gmail.com",
+  "password": "Ayal7000",
+  "role": "student",
+  "classid": "h_1",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6955d21c9cce489688b32490"
+  },
+  "userId": "8000",
+  "name": "Leah",
+  "email": "Leah@gmail.com",
+  "password": "Leah8000",
+  "role": "teacher",
+  "classid": "h_2",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695969bd81e4f166ccd4d73f"
+  },
+  "userId": "90000",
+  "name": "Elisheva",
+  "email": "Elisheva@gmail.com",
+  "password": "elish90000",
+  "role": "student",
+  "classid": "h_5",
+  "__v": 0
+}]

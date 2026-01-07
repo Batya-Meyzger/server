@@ -1,0 +1,79 @@
+[{
+  "_id": {
+    "$oid": "6956bb295434153a6b8a5388"
+  },
+  "assignmentId": {
+    "$oid": "6956a8926fdb2ef198abf1ba"
+  },
+  "studentId": "7000",
+  "githubLink": "ayala.git",
+  "partner": "6000",
+  "__v": 0,
+  "feedback": "",
+  "grade": 0
+},
+{
+  "_id": {
+    "$oid": "6956bcd57440a402659c9f8b"
+  },
+  "assignmentId": {
+    "$oid": "6956a8926fdb2ef198abf1ba"
+  },
+  "studentId": "7000",
+  "githubLink": "ayala.git",
+  "partner": "6000",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6956bd9a4ac0c657ae971428"
+  },
+  "assignmentId": {
+    "$oid": "6956af0a2e41035037a68158"
+  },
+  "studentId": "7000",
+  "githubLink": "ayala.git",
+  "partner": "6000",
+  "__v": 0,
+  "feedback": "נוג'ה!",
+  "grade": 73
+},
+{
+  "_id": {
+    "$oid": "6956be634ac0c657ae97142a"
+  },
+  "assignmentId": {
+    "$oid": "6956b3782e41035037a68169"
+  },
+  "studentId": "7000",
+  "githubLink": "ayala.git",
+  "partner": "3000",
+  "__v": 0,
+  "feedback": "grate job!",
+  "grade": 90
+},
+{
+  "_id": {
+    "$oid": "6956bf4a4ac0c657ae97142d"
+  },
+  "assignmentId": {
+    "$oid": "6956b2072e41035037a68165"
+  },
+  "studentId": "3000",
+  "githubLink": "hila.git",
+  "partner": "6000",
+  "__v": 0,
+  "feedback": "",
+  "grade": 60
+},
+{
+  "_id": {
+    "$oid": "695a820457ea47fbc095b78f"
+  },
+  "assignmentId": {
+    "$oid": "6956b3782e41035037a68169"
+  },
+  "studentId": "Hila3000",
+  "githubLink": "hila.git",
+  "__v": 0
+}]

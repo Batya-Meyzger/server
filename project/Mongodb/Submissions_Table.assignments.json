@@ -1,0 +1,126 @@
+[{
+  "_id": {
+    "$oid": "6956a8926fdb2ef198abf1ba"
+  },
+  "title": "server",
+  "description": "middleware",
+  "dueDate": {
+    "$date": "2026-06-30T21:00:00.000Z"
+  },
+  "createdDate": {
+    "$date": "2026-01-01T17:02:10.381Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6956af0a2e41035037a68158"
+  },
+  "title": "nodejs",
+  "description": "middlewares",
+  "dueDate": {
+    "$date": "2026-06-30T21:00:00.000Z"
+  },
+  "createdDate": {
+    "$date": "2026-01-01T17:29:46.318Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6956b2072e41035037a68165"
+  },
+  "title": "java",
+  "description": "class",
+  "dueDate": {
+    "$date": "2026-09-30T21:00:00.000Z"
+  },
+  "createdDate": {
+    "$date": "2026-01-01T17:42:31.864Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6956b3782e41035037a68169"
+  },
+  "title": "c#",
+  "description": "oop",
+  "dueDate": {
+    "$date": "2026-01-20T00:00:00.000Z"
+  },
+  "createdDate": {
+    "$date": "2026-01-01T17:48:40.856Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6959bd2cdedf7758bdbbac86"
+  },
+  "title": "server ",
+  "description": "תיאור ברירת מחדל או טקסט מהמורה",
+  "dueDate": {
+    "$date": "2026-01-04T01:06:52.663Z"
+  },
+  "createdDate": {
+    "$date": "2026-01-04T01:06:52.679Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6959be98dedf7758bdbbac8a"
+  },
+  "title": "html",
+  "description": "bnm",
+  "dueDate": {
+    "$date": "2026-01-30T00:00:00.000Z"
+  },
+  "createdDate": {
+    "$date": "2026-01-04T01:12:56.190Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695a2ce457ea47fbc095b74e"
+  },
+  "title": "c",
+  "description": "****",
+  "dueDate": {
+    "$date": "2026-01-30T00:00:00.000Z"
+  },
+  "createdDate": {
+    "$date": "2026-01-04T09:03:32.026Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695a315157ea47fbc095b767"
+  },
+  "title": "python",
+  "description": "models",
+  "dueDate": {
+    "$date": "2026-01-30T00:00:00.000Z"
+  },
+  "createdDate": {
+    "$date": "2026-01-04T09:22:25.187Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695a823857ea47fbc095b796"
+  },
+  "title": "git",
+  "description": "העלאת קבצים",
+  "dueDate": {
+    "$date": "2026-01-30T00:00:00.000Z"
+  },
+  "createdDate": {
+    "$date": "2026-01-04T15:07:36.435Z"
+  },
+  "__v": 0
+}]
